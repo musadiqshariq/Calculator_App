@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="h1">CALCULATOR</h1>
+    <div class="calc">
+        <div>
+            <input disabled type="text" class="calc_input" id="inp">
+        </div>
+        <div>
+            <button onclick="clear_result()" class="btn del_btn clr">C</button>
+        </div>
+        <div>
+            <button onclick="del()" class="btn dbl clr">del</button>
+            <button onclick="set_number('%')" class="btn clr">%</button>
+            <button onclick="set_number('/')" class="btn clr">/</button>
+        </div>
+        <div>
+            <button onclick="set_number('7')" class="btn clr2">7</button>
+            <button onclick="set_number('8')" class="btn clr2">8</button>
+            <button onclick="set_number('9')" class="btn clr2">9</button>
+            <button onclick="set_number('*')" class="btn clr">x</button>
+        </div>
+        <div>
+            <button onclick="set_number('4')" class="btn clr2">4</button>
+            <button onclick="set_number('5')" class="btn clr2">5</button>
+            <button onclick="set_number('6')" class="btn clr2">6</button>
+            <button onclick="set_number('-')" class="btn clr">-</button>
+        </div>
+        <div>
+            <button onclick="set_number('1')" class="btn clr2">1</button>
+            <button onclick="set_number('2')" class="btn clr2">2</button>
+            <button onclick="set_number('3')" class="btn clr2">3</button>
+            <button onclick="set_number('+')" class="btn clr">+</button>
+        </div>
+        <div>
+            <button onclick="set_number('0')" class="btn clr2 dbl">0</button>
+            <button onclick="set_number('.')" class="btn clr2">.</button>
+            <button onclick="get_result()" class="btn clr">=</button>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

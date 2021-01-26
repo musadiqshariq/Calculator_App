@@ -1,0 +1,42 @@
+ body{
+     background-color:lightgray;
+ } 
+.calc{
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: black;
+}
+#h1{
+    text-align: center;
+    font-size: 34px;
+}
+.calc_input{
+    width: 98.5%;
+    font-size: 70px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.btn{
+    width: 24%;
+    height: 70px;
+    outline: none;
+    margin: 1px;
+    border-radius: 200px;
+    border-style: none;
+    font-size: 24px;
+}
+.clr{
+    background-color: #ff9f0a;
+}
+.clr2{
+    background-color: #a6a6a6;
+}
+.dbl{
+    width: 49%;
+}
+.del_btn{
+    width: 99.5%;
+}
