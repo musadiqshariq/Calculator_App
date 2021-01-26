@@ -1,6 +1,14 @@
 function set_number(num){
     var input = document.getElementById("inp")
-    input.value += num 
+    var last_char = input.value[input.value.length-1]
+    var opr = ["+","-","*","/","%","."]
+    if(opr.indexOf(last_char) !== -1 && opr.indexOf(num) !== -1){
+                var other_chars = input.value.slice(0,input.value.length-1)
+                input.value = other_chars + num
+    }
+    else{
+        input.value += num
+    }
 }
 function get_result(){
     var input = document.getElementById("inp")
